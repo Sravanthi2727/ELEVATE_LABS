@@ -42,7 +42,7 @@ h1 {
 }
 
 #add-btn {
-  background-color: #e788e5;
+  background-color: #ed87eb;
   color: rgb(47, 20, 27);
   border: none;
   padding: 10px 16px;
@@ -52,7 +52,7 @@ h1 {
 }
 
 #add-btn:hover {
-  background-color: #e85c50;
+  background-color: #c951ea;
 }
 
 #task-list {
@@ -95,6 +95,6 @@ h1 {
 }
 
 .delete-btn {
-  background-color: #f44336;
+  background-color: #f25044;
   color: white;
 }
