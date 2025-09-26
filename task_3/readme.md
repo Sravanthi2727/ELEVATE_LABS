@@ -1,0 +1,1 @@
+This Node.js + Express app provides CRUD endpoints to manage books stored in memory. Use GET, POST, PUT, and DELETE on /books to interact with the API. Run with node server.js and test using Postman or the frontend UI. No database required—perfect for learning REST fundamentals and Express routing
