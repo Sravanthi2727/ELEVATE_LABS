@@ -1,0 +1,1 @@
+This HTML/CSS site adapts to mobile using media queries and Flexbox/Grid layout. Includes animated hamburger menu, image grid, and smooth UI transitions. Open index.html in a browser and test responsiveness with Chrome DevTools.
