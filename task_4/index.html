@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Layout</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">TASK_4</div>
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="sidebar">Sidebar content</section>
+      <section class="content">
+        <h1>Welcome</h1>
+        <p>This is a sample responsive layout.</p>
+
+        <div class="image-grid">
+          <img src="calming-nature-wallpaper-free-image.webp" alt="Nature 1" />
+          <img
+            src="360_F_201780104_hetXS26W8alnsbDKbpnr4sVizJfiO12w.jpg"
+            alt="Nature 2"
+          />
+          <img src="NatureLandscapes-519760984.jpg" alt="Nature 3" />
+        </div>
+
+        <button>Click Me</button>
+      </section>
+    </main>
+
+    <footer>© 2025 TASK_4</footer>
+
+    <script>
+      const hamburger = document.getElementById("hamburger");
+      const navLinks = document.getElementById("navLinks");
+
+      hamburger.addEventListener("click", () => {
+        hamburger.classList.toggle("open");
+        navLinks.classList.toggle("open");
+      });
+    </script>
+  </body>
+</html>
