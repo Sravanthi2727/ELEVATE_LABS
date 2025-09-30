@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form</title>
+  </head>
+  <body>
+    <h2 style="text-align: center">Task_6</h2>
+    <form id="contactForm">
+      <label>Name:</label>
+      <input type="text" id="name" />
+      <span class="error" id="nameError"></span>
+
+      <label>Email:</label>
+      <input type="email" id="email" />
+      <span class="error" id="emailError"></span>
+
+      <label>Message:</label>
+      <textarea id="message"></textarea>
+      <span class="error" id="messageError"></span>
+
+      <button type="submit">Submit</button>
+      <p id="successMessage"></p>
+    </form>
+  </body>
+  <script src="script.js"></script>
+</html>
